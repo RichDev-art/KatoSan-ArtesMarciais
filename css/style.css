@@ -1,0 +1,426 @@
+/*Pagina Inicial*/
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+    flex: 1;
+    padding: 35px 25px !important;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar ul a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #1a1a1a;
+    color: #888888;
+}
+
+.navbar a.active {
+    background-color: #c4c4c4; 
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container-video {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.container-video video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border: 2px solid #f59e0b;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.container-video figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+
+/*Pagina Sobre o site*/
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1f1f1f;
+    border: 1px solid #f59e0b;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #333333;
+    text-align: left;
+}
+
+th {
+    background-color: #f59e0b;
+    color: #ffffff;
+}
+
+td {
+    background-color: #2a2a2a;
+    color: #f59e0b;
+    font-size: 1.05rem;
+}
+
+td {
+    color:#e5e5e5;
+}
+
+tbody tr:hover {
+    background-color: #292929;
+}
+
+/*Sobre o Autor*/
+.secao-autor {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.card-autor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1f1f1f;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-autor img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #f59e0b;
+}
+
+.card-autor figcaption {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+.informações-autor {
+    flex: 1;
+    text-align: left;
+    min-width: 200px;
+}
+
+.informações-autor h3 {
+    margin-top: 0;
+    color: #f59e0b;
+    margin-bottom: 10px;
+}
+
+.informações-autor p {
+    margin: 5px 0;
+    color: #e5e5e5;
+    line-height: 1.5;
+}
+
+/*Pagina Mestres*/
+.card-mestre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1f1f1f;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-mestre img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #f59e0b;
+}
+
+.informações-mestre {
+    flex: 1;
+    text-align: left;
+    min-width: 200px;
+}
+
+.informações-mestre h3 {
+    margin-top: 0;
+    color: #f59e0b;
+    margin-bottom: 10px;
+}
+
+.informações-mestre p {
+    margin: 5px 0;
+    color: #e5e5e5;
+    line-height: 1.5;
+}
+
+
+.conteudo-historia {
+    max-width: 850;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+/*pagina estilos e modalidades*/
+.introducao {
+    font-size: 1.1rem;
+    color: #e5e7eb;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.card-historia {
+    background-color: #1f1f1f;
+    border: 2px solid #f59e0b;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: left; 
+    border-radius: 50px;
+    
+    
+}
+
+.card-historia h3 {
+    color: #f59e0b;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.card-historia p {
+    color: #cccccc;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.card-historia ul {
+    margin-top:15px;
+    padding-left: 20px;
+    color: #cccccc;
+    text-align: left;
+}
+
+.card-historia li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.card-historia li strong {
+    color: #f59e0b;
+}
+
+/*Pagina Defesa Pessoal*/
+.conteudo-historia {
+    background-color: #1f1f1f;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.defesa-dicas {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    width: 100%;
+}
+
+.defesa-dicas h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.cards-dicas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card-dica {
+    border-radius: 8px;
+    padding: 1.8rem;
+}
+
+.dica-icone {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.card-dica {
+    border-radius: 8px;
+    padding: 1.8rem;
+}
+
+/*banner do site*/
+.topo-banner {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background-image: url('../img/banner-dojo.png');
+    background-size: cover;
+    background-position: center 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-banner-overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(0,0,0,0.65)0%, rgba(0,0,0,0.3) 80%);
+    z-index: 1;
+}
+
+.top-banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.top-banner-content h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+    margin: 0;
+}
+
+/*menu de navegação*/
+.navbar {
+    background-color: #2b2b2b;
+    border-bottom: 1px solid #3a3a3a;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: block;
+    padding: 12px 14px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+/*Paleta de cores*/
+body {
+    background-color: #121214 !important;
+    color: #F4F4F6 !important;
+}
+
+.navbar {
+    background-color: #16181E !important;
+    border-bottom: 2px solid #D4AF37 !important;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background-color: #C8102E !important;
+    color: #ffffff !important;
+}
+
+h1, h2, h3,
+.secao-contato h2 {
+    color: #D4AF37 !important;
+}
+
+.form-contato,
+.info-dojo,
+main section {
+    background-color: #1A1D24 !important;
+    border: 1px solid #2D313E !important;
+}
+
+.btn-enviar,
+button {
+    background-color: #C8102E !important;
+    color: #ffffff !important;
+    border: 1px solid #D4AF37 !important;
+}
+
+.btn-enviar:hover,
+button:hover {
+    background-color: #E02443 !important;
+    box-shadow: 0 0 12px rgba(200, 16, 46, 0.5) !important;
+}
