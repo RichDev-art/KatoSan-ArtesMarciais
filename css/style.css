@@ -234,9 +234,9 @@ tbody tr:hover {
     margin-bottom: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     text-align: left; 
-    border-radius: 50px;
-    
-    
+    border-radius: 50px; 
+    max-width: 900px;
+    margin: 20px auto;
 }
 
 .card-historia h3 {
