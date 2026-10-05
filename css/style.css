@@ -427,7 +427,7 @@ button:hover {
     box-shadow: 0 0 12px rgba(200, 16, 46, 0.5) !important;
 }
 
-/*Cenas mais épicas filmes*/
+/*Cenas mais épicas */
 .card-midia {
     max-width: 900px;
     margin: 50px auto;
@@ -444,5 +444,4 @@ button:hover {
     overflow: hidden;
     border: 1px solid #D4AF37;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
-}   
-
+}
