@@ -445,3 +445,18 @@ button:hover {
     border: 1px solid #D4AF37;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
 }
+
+/*pagina equipamentos imagens*/
+.imagem-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #D4AF37;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
