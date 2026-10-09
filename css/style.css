@@ -497,13 +497,13 @@ button:hover {
         overflow-x: auto !important;
         white-space: nowrap !important;
         justify-content: flex-start !important;
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling: touch !important;
     }
 
-    nav a, .menu a, ul li a {
-        padding: 8px 12px !important;
-        font-size: 0.9rem !important;
-        display: inline-block !important;
+    nav a, .menu a, ul a {
+       padding: 8px 12px !important;
+       font-size: 0.9rem !important;
+       display: inline-block !important;
     }
 
     .container, .content, main {
