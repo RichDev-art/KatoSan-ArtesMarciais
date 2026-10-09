@@ -487,9 +487,23 @@ button:hover {
 }
 
 /*para o celular*/
-@media (max-width: 1250px) {
+@media (max-width: 1400px) {
     .arte-lateral {
         display: none !important;
+    }
+
+    nav, .menu, ul {
+        display: flex !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        justify-content: flex-start !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    nav a, .menu a, ul li a {
+        padding: 8px 12px !important;
+        font-size: 0.9rem !important;
+        display: inline-block !important;
     }
 
     .container, .content, main {
@@ -516,3 +530,4 @@ button:hover {
         height: auto !important;
     }
 }
+    
