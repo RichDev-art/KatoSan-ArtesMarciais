@@ -528,6 +528,8 @@ button:hover {
     iframe, video {
         width: 100% !important;
         height: auto !important;
+        aspect-ratio: 16/9 !important;
+        min-height: 200px !important;
     }
 }
     
