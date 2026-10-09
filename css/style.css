@@ -485,3 +485,34 @@ button:hover {
     right: 100px;
     background-image: url('../img/Nunchaku-KatoSan.png');
 }
+
+/*para o celular*/
+@media (max-width: 1250px) {
+    .arte-lateral {
+        display: none !important;
+    }
+
+    .container, .content, main {
+        width: 100% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .grid, .colunas, .cards-container {
+        flex-direction: column !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    iframe, video {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
