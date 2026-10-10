@@ -488,8 +488,14 @@ button:hover {
 
 /*para o celular*/
 @media (max-width: 1400px) {
-    .arte-lateral {
-        display: none !important;
+    img,picture,video, canvas, svg {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+   
+    body, html {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
     }
 
     nav, .menu, ul {
